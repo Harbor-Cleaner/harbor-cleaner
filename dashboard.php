@@ -2,6 +2,7 @@
 require("/template/header.html");
 date_default_timezone_set('Europe/Paris')
 ?>
+<title>Harbor Cleaner | Pilotage</title>
 <h1>Menu de pilotage | Harbor Cleaner</h1>
     <div class="split-screen">
     <!-- Contenue gauche -->
@@ -23,7 +24,7 @@ date_default_timezone_set('Europe/Paris')
 
     <!-- Contenue droite -->
     <div class="split-screen__half">
-                    
+           
     </div>
 <?php
 require("/template/footer.html");
