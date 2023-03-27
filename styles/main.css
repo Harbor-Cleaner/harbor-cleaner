@@ -23,21 +23,6 @@ h2{
 #camera{
     width: 500px;
 }
-/* Footer */
-.sticky-footer {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.sticky-footer__header,
-.sticky-footer__footer {
-    flex-shrink: 0;
-}
-
-.sticky-footer__main {
-    flex-grow: 1;
-}
 /* Scroll up*/
 #scrollUp
 {
@@ -53,6 +38,39 @@ opacity: 0.5;
 .chiffres{
     font-family: 'Quicksand', sans-serif;
 }
+/* Navbar */
+.navbar{
+    background-color: #dbd0c0;
+    border-radius: 30px;
+    font-family: 'Quicksand', bold;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #242F3F;
+}
+.navbar li a:hover{
+    color: royalblue
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
 #logo_footer{
     width: 100px;
     height: 100px;

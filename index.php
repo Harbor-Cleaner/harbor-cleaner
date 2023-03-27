@@ -6,12 +6,14 @@ date_default_timezone_set('Europe/Paris');
 <title>Harbor Cleaner</title>
 <!-- Présentation du projet -->
 <h1>Harbor Cleaner</h1>
+<a id="projet"></a>
 <!-- Présentation but du projet -->
 <h2>Le but du projet ?</h2>
 <!-- Présentation de l'équipe ayant développé le projet -->
 <h2>Équipe de développement</h2>
 <!-- Chiffres significatif -->
 <h2>Harbor Cleaner en quelques chiffres</h2>
+<a id="chiffres"></a>
 <?php
  try
  {
