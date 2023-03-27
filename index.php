@@ -22,7 +22,7 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 // Affichage de données
-$reponse = $bdd->query('SELECT * FROM bateau'); //Requête base de donnees
+$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY dechet DESC LIMIT 1'); //Requête base de donnees
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
     echo '<h4>'.$donnees['distance'].'</h4>';
