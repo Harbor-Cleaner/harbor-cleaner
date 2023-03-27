@@ -14,6 +14,7 @@ date_default_timezone_set('Europe/Paris');
 <!-- Chiffres significatif -->
 <h2>Harbor Cleaner en quelques chiffres</h2>
 <a id="chiffres"></a>
+<div id="display-nombres">
 <?php
  try
  {
@@ -24,18 +25,19 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 // Affichage de données
-$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY dechet DESC LIMIT 1'); //Requête base de donnees
+$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY dechet DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
-    echo '<h4>'.$donnees['distance'].'</h4>';
-    echo '<h4>'.$donnees['dechet'].'</h4>';
+    echo '<h4>'.$donnees['distance'].' kms </h4>';
+    echo '<h4>'.$donnees['dechet'].' tonnes </h4>';
     echo '<h4>'.$donnees['etat'].'</h4>';
-    echo '<h4>'.$donnees['heure'].'</h4>';
+    echo '<h4>'.$donnees['heure'].' h de fonctionnement</h4>';
      
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
  
 ?>
+</div>
 
 <?php
 require("template/footer.html");
