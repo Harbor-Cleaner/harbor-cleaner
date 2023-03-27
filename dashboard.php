@@ -1,5 +1,5 @@
 <?php
-require("/template/header.html");
+require("template/header.html");
 date_default_timezone_set('Europe/Paris')
 ?>
 <title>Harbor Cleaner | Pilotage</title>
@@ -27,5 +27,5 @@ date_default_timezone_set('Europe/Paris')
            
     </div>
 <?php
-require("/template/footer.html");
+require("template/footer.html");
 ?>

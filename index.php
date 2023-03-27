@@ -1,6 +1,6 @@
 <?php
-require("/template/header.html");
-date_default_timezone_set('Europe/Paris')
+require("template/header.html");
+date_default_timezone_set('Europe/Paris');
 ?>
 
 <title>Harbor Cleaner</title>
@@ -36,8 +36,6 @@ $reponse->closeCursor();  // Termine le traitement de la requête
  
 ?>
 
-
-
 <?php
-require("/template/footer.html");
+require("template/footer.html");
 ?>
