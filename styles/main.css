@@ -53,3 +53,8 @@ opacity: 0.5;
 .chiffres{
     font-family: 'Quicksand', sans-serif;
 }
+#logo_footer{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
