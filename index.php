@@ -22,13 +22,13 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 // Affichage de données
-$reponse = $bdd->query('SELECT * FROM harborcleaner'); //Requête base de donnees
+$reponse = $bdd->query('SELECT * FROM bateau'); //Requête base de donnees
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
-    echo '<h4>'.$donnees['distance'].'</h4>kms parcourus';
-    echo '<h4>'.$donnees['dechet'].'</h4>t déchets récolté';
-    echo '<h4>'.$donnees['heure'].'</h4> heure fonctionnement';
+    echo '<h4>'.$donnees['distance'].'</h4>';
+    echo '<h4>'.$donnees['dechet'].'</h4>';
     echo '<h4>'.$donnees['etat'].'</h4>';
+    echo '<h4>'.$donnees['heure'].'</h4>';
      
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
