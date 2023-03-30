@@ -22,6 +22,7 @@ date_default_timezone_set('Europe/Paris')
 <div class="split-screen__half">
            
 </div>
+
 <?php
 require("template/footer.html");
 ?>
