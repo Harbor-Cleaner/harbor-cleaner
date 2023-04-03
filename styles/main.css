@@ -71,15 +71,21 @@ opacity: 0.5;
     border-radius: 14px;
     padding: 3px 17px;
     width: 129px;
-
-#footer-logo{
-    width: 10px;
-    height: 10px;
-    align-items: center;
 }
-
+footer{
+    height: 200px;
+    margin-top: 270px;
+    background-color: #dbd0c0;
+    border-radius:50px;
+}
 #logo-footer{
-    width: 10px;
-    height: 10px;
-    align-items: center;
+    width: 130px;
+    height: 130px;
+    margin-left: 140px;
+    margin-top: -10px;
+    border-radius: 15px;
+}
+#text-footer{
+    color: #242F3F;
+    margin-left: 80px;
 }
