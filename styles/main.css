@@ -74,4 +74,30 @@ opacity: 0.5;
     float: right;
     list-style: none;
     text-decoration: none;
+
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+footer{
+    height: 200px;
+    margin-top: 270px;
+    background-color: #dbd0c0;
+    border-radius:50px;
+}
+#logo-footer{
+    width: 130px;
+    height: 130px;
+    margin-left: 140px;
+    margin-top: -10px;
+    border-radius: 15px;
+}
+#text-footer{
+    color: #242F3F;
+    margin-left: 80px;
 }
