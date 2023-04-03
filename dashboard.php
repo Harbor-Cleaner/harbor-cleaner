@@ -2,6 +2,7 @@
 require("template/header.html");
 date_default_timezone_set('Europe/Paris')
 ?>
+
 <title>Harbor Cleaner | Pilotage</title>
 <h1>Menu de pilotage | Harbor Cleaner</h1>
     <div class="split-screen">
@@ -17,15 +18,14 @@ date_default_timezone_set('Europe/Paris')
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
-        <img 
+    <!-- Contenue droite -->
+    <div class="split-screen__half">
+    <img 
             src="https://assets.stickpng.com/thumbs/5cb78e957ff3656569c8cec0.png" 
             alt=""
             id="camera">
-
-    <!-- Contenue droite -->
-    <div class="split-screen__half">
-           
     </div>
+
 <?php
 require("template/footer.html");
 ?>
