@@ -2,6 +2,7 @@
 require("template/header.html");
 date_default_timezone_set('Europe/Paris');
 ?>
+<title>Harbor Cleaner</title>
 <!-- Présentation du projet -->
 <a id="projet"></a>
 <!-- Présentation but du projet -->
