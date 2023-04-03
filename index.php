@@ -33,7 +33,7 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
         <ul>
             <li> Distance parcourues : '.$donnees['distance'].'kms </li>
             <li> Déchet récoltés :'.$donnees['dechet'].'t </li>
-            <li> Heure de fonctionnement'.$donnees['heure'].'h </li>
+            <li> Heure de fonctionnement : '.$donnees['heure'].'h </li>
             <li> Etat :'.$donnees['etat'].'</li>
         </ul>
     </div>

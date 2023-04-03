@@ -72,10 +72,7 @@ opacity: 0.5;
 .display-nombres li{
     float: left;
     list-style: none;
-}
-.display-nombres li a{
     padding: 3px 3px;
     text-decoration: none;
-    color: #242F3F; 
-}
 
+}
