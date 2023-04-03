@@ -61,8 +61,18 @@ opacity: 0.5;
 .navbar li a:hover{
     color: royalblue
 }
-.search{
+/*Affichage des nombres*/
+.display-nombres{
+    text-align: center;
+    font-size: 20px;
+}
+.display-nombres ul{
+    overflow: auto;
+}
+.display-nombres li{
     float: right;
+    list-style: none;
+    text-decoration: none;
     color: white;
     padding: 12px 75px;
 }
