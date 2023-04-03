@@ -14,7 +14,6 @@ date_default_timezone_set('Europe/Paris');
 <!-- Chiffres significatif -->
 <h2>Harbor Cleaner en quelques chiffres</h2>
 <a id="chiffres"></a>
-<div class="display-nombres">
 <?php
  try
  {
@@ -28,6 +27,7 @@ catch(Exception $e)
 $reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY distance DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
+
     echo'
     <div class="display-nombres">
         <ul>
@@ -41,7 +41,6 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
 ?>
-</div>
 <?php
 require("template/footer.html");
 ?>
