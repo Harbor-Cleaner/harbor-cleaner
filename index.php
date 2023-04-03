@@ -24,38 +24,26 @@ catch(Exception $e)
 $reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY distance DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
-
     echo'
     <div class="display-nombres">
-    <table>
-        <thead>
-            <tr>
-                <th colspan="2">Notre projet en quelques chiffres</th>
-            </tr>
-        </thead>
+    <table id="table-nombres" cellspacing="30">
         <tbody>
-            <tr>
+            <tr id="table-item">
                 <th>Distance parcourue</th>
                 <th>Déchet récolté</th>
                 <th>Heure de fonctionnement</th>
                 <th>Etat</th>
             </tr>
-            <tr>
-                <th>Distance parcourue</th>
-                <th>Déchet récolté</th>
-                <th>Heure de fonctionnement</th>
-                <th>Etat</th>
+            <tr id="table-valeurs">
+                <th>'.$donnees['distance'].' kms</th>
+                <th>'.$donnees['dechet'].'t </th>
+                <th>'.$donnees['heure'].'h </th>
+                <th>'.$donnees['etat'].'</th>
             </tr>
-                <th>'.$donnees['distance'].'</th>
+                <th></th>
             </tr>
         </tbody>
     </table>
-        <ul>
-            <li> Distance parcourues : <br>kms </li>
-            <li> Déchet récoltés : <br>'.$donnees['dechet'].'t </li>
-            <li> Heure de fonctionnement : <br>'.$donnees['heure'].'h </li>
-            <li> Etat : <br>'.$donnees['etat'].'</li>
-        </ul>
     </div>
     ';
     }
