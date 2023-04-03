@@ -2,10 +2,7 @@
 require("template/header.html");
 date_default_timezone_set('Europe/Paris');
 ?>
-
-<title>Harbor Cleaner</title>
 <!-- Présentation du projet -->
-<h1>Harbor Cleaner</h1>
 <a id="projet"></a>
 <!-- Présentation but du projet -->
 <h2>Le but du projet ?</h2>
@@ -14,7 +11,6 @@ date_default_timezone_set('Europe/Paris');
 <!-- Chiffres significatif -->
 <h2>Harbor Cleaner en quelques chiffres</h2>
 <a id="chiffres"></a>
-<div id="display-nombres">
 <?php
  try
  {
@@ -25,19 +21,48 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 // Affichage de données
-$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY dechet DESC LIMIT 1'); //Requête BDD
+$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY distance DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
-    echo '<h4>'.$donnees['distance'].' kms </h4>';
-    echo '<h4>'.$donnees['dechet'].' tonnes </h4>';
-    echo '<h4>'.$donnees['etat'].'</h4>';
-    echo '<h4>'.$donnees['heure'].' h de fonctionnement</h4>';
-     
+
+    echo'
+    <div class="display-nombres">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Notre projet en quelques chiffres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Distance parcourue</th>
+                <th>Déchet récolté</th>
+                <th>Heure de fonctionnement</th>
+                <th>Etat</th>
+            </tr>
+            <tr>
+                <th>Distance parcourue</th>
+                <th>Déchet récolté</th>
+                <th>Heure de fonctionnement</th>
+                <th>Etat</th>
+            </tr>
+                <th>'.$donnees['distance'].'</th>
+            </tr>
+        </tbody>
+    </table>
+        <ul>
+            <li> Distance parcourues : <br>kms </li>
+            <li> Déchet récoltés : <br>'.$donnees['dechet'].'t </li>
+            <li> Heure de fonctionnement : <br>'.$donnees['heure'].'h </li>
+            <li> Etat : <br>'.$donnees['etat'].'</li>
+        </ul>
+    </div>
+    ';
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
- 
 ?>
-</div>
+
+
 
 <?php
 require("template/footer.html");
