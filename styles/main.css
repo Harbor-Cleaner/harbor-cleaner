@@ -63,6 +63,7 @@ opacity: 0.5;
 
 /*Affichage des nombres*/
 .display-nombres{
+    display: flex;
     text-align: center;
     font-size: 20px;
 }
@@ -70,9 +71,7 @@ opacity: 0.5;
     overflow: auto;
 }
 .display-nombres li{
-    float: left;
+    float: right;
     list-style: none;
-    padding: 3px 3px;
     text-decoration: none;
-
 }
