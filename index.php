@@ -40,10 +40,8 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
     ';
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
- 
 ?>
 </div>
-
 <?php
 require("template/footer.html");
 ?>
