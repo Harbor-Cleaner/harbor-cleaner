@@ -51,7 +51,6 @@ opacity: 0.5;
     float:left;
     list-style: none; 
     margin: 13px 20px;
-
 }
 .navbar li a{
     padding: 3px 3px;
@@ -61,21 +60,22 @@ opacity: 0.5;
 .navbar li a:hover{
     color: royalblue
 }
-.search{
-    float: right;
-    color: white;
-    padding: 12px 75px;
-}
-.navbar input{
-    border: 2px solid black;
-    border-radius: 14px;
-    padding: 3px 17px;
-    width: 129px;
-}
+
 /*Affichage des nombres*/
 .display-nombres{
     text-align: center;
-}
-h4 span{
     font-size: 20px;
 }
+.display-nombres ul{
+    overflow: auto;
+}
+.display-nombres li{
+    float: left;
+    list-style: none;
+}
+.display-nombres li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #242F3F; 
+}
+

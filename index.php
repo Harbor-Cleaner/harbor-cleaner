@@ -29,12 +29,14 @@ $reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY distance DESC LIMIT 1');
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
     echo'
-    <p class="display-nombres">
-      <h4><span>'.$donnees['distance'].'</span> </h4>
-      <h4><span>'.$donnees['dechet'].'</span> </h4>
-      <h4><span>'.$donnees['heure'].'</span> </h4>
-      <h4><span>'.$donnees['etat'].'</span> </h4>
-    </p>
+    <div class="display-nombres">
+        <ul>
+            <li> Distance parcourues : '.$donnees['distance'].'kms </li>
+            <li> Déchet récoltés :'.$donnees['dechet'].'t </li>
+            <li> Heure de fonctionnement'.$donnees['heure'].'h </li>
+            <li> Etat :'.$donnees['etat'].'</li>
+        </ul>
+    </div>
     ';
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
