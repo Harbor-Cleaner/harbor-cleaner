@@ -71,8 +71,8 @@ opacity: 0.5;
     border-radius: 14px;
     padding: 3px 17px;
     width: 129px;
-#logo_footer{
-    width: 100px;
-    height: 100px;
+}
+/*Affichage des nombres*/
+h4 span{
     align-items: center;
 }

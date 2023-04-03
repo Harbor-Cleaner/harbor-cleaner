@@ -14,7 +14,7 @@ date_default_timezone_set('Europe/Paris');
 <!-- Chiffres significatif -->
 <h2>Harbor Cleaner en quelques chiffres</h2>
 <a id="chiffres"></a>
-<div id="display-nombres">
+<div class="display-nombres">
 <?php
  try
  {
@@ -28,11 +28,14 @@ catch(Exception $e)
 $reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY distance DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
-    echo '<h4>'.$donnees['distance'].' kms </h4>';
-    echo '<h4>'.$donnees['dechet'].' tonnes </h4>';
-    echo '<h4>'.$donnees['etat'].'</h4>';
-    echo '<h4>'.$donnees['heure'].' h de fonctionnement</h4>';
-     
+    echo'
+    <p class="display-nombres">
+      <h4><span>'.$donnees['distance'].'</span> </h4>
+      <h4><span>'.$donnees['dechet'].'</span> </h4>
+      <h4><span>'.$donnees['heure'].'</span> </h4>
+      <h4><span>'.$donnees['etat'].'</span> </h4>
+    </p>
+    ';
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
  
