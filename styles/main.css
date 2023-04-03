@@ -73,6 +73,9 @@ opacity: 0.5;
     width: 129px;
 }
 /*Affichage des nombres*/
+.display-nombres{
+    text-align: center;
+}
 h4 span{
-    align-items: center;
+    font-size: 20px;
 }
