@@ -21,7 +21,7 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 // Affichage de données
-$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY distance DESC LIMIT 1'); //Requête BDD
+$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY dechet DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
     echo'
