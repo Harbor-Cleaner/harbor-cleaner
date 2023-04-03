@@ -71,8 +71,15 @@ opacity: 0.5;
     border-radius: 14px;
     padding: 3px 17px;
     width: 129px;
-#logo_footer{
-    width: 100px;
-    height: 100px;
+
+#footer-logo{
+    width: 10px;
+    height: 10px;
+    align-items: center;
+}
+
+#logo-footer{
+    width: 10px;
+    height: 10px;
     align-items: center;
 }
