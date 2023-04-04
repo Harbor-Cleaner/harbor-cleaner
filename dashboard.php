@@ -2,6 +2,7 @@
 require("template/header.html");
 date_default_timezone_set('Europe/Paris')
 ?>
+
 <title>Harbor Cleaner | Pilotage</title>
 <h1>Menu de pilotage | Harbor Cleaner</h1>
 <div class="split-screen">
@@ -15,14 +16,12 @@ date_default_timezone_set('Europe/Paris')
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-</div>
-<video style="height:100vh;width:100vw;background:#000;"></video>
-<!-- Contenue droite -->
-<div class="split-screen__half">
-           
-</div>
-
+        </iframe>
+   </div>
+    <!-- Contenue droite -->
+    <div class="split-screen__half">
+        <video style="height:100vh;width:100vw;background:#000;"></video>
+    </div>
 <?php
 require("template/footer.html");
 ?>
