@@ -14,22 +14,35 @@ h2{
 /* Division de la page en 2*/
 .split-screen {
     display: flex;
+    align-items: center;
+    margin: auto;
 }
 
 .split-screen__half {
     flex: 1;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin: 14%;
+    margin-top: 3%;
 }
 /* Camera + Carte*/
 #camera{
+    height:500px;
     width: 500px;
+    background:#000;
+    border-radius: 5%;
+}
+#carte{
+    border-radius: 5%;
 }
 /* Scroll up*/
 #scrollUp
 {
-position: fixed;
-bottom : 10px;
-right: -340px;
-opacity: 0.5;
+    position: fixed;
+    bottom : 10px;
+    right: -340px;
+    opacity: 0.5;
 }
 #to_top{
     width: 12.5%;
