@@ -4,7 +4,7 @@ date_default_timezone_set('Europe/Paris')
 ?>
 
 <title>Harbor Cleaner | Pilotage</title>
-<h2>Pilotage</h2>
+<h2>Information concernant Harbor Cleaner</h2>
 <div class="split-screen">
     <!-- Contenue gauche -->
     <div class="split-screen__half">
