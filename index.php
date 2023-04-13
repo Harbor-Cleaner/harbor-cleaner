@@ -22,9 +22,10 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 // Affichage de données
-$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY dechet DESC LIMIT 1'); //Requête BDD
+$reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY bateau_id DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
+    $etat = $donnees['etat'] == 1 ? 'En marche' : 'Ne fonctionne pas';
     echo'
     <div class="display-nombres">
     <table id="table-nombres" cellspacing="30">
@@ -39,7 +40,7 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
                 <th>'.$donnees['distance'].' kms</th>
                 <th>'.$donnees['dechet'].'t </th>
                 <th>'.$donnees['heure'].'h </th>
-                <th>'.$donnees['etat'].'</th>
+                <th>'.$etat.'</th>
             </tr>
                 <th></th>
             </tr>
@@ -50,6 +51,7 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
 ?>
+
 
 
 
