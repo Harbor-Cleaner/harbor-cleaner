@@ -1,5 +1,5 @@
 <?php
-require("template/header.html");
+require("template/header.php");
 date_default_timezone_set('Europe/Paris')
 ?>
 
@@ -22,9 +22,6 @@ date_default_timezone_set('Europe/Paris')
     <div class="split-screen__half">
         <video style="height:100vh;width:100vw;background:#000;"></video>
     </div>
-<?php
-require("template/footer.html");
-?>
 <script>
     //  { exact: "environment" }
     if(navigator && navigator.mediaDevices){
@@ -47,3 +44,7 @@ else{
 
     // Good to go!
 </script>
+
+<?php
+require("template/footer.php");
+?>
