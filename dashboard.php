@@ -45,7 +45,3 @@ else{
 
     // Good to go!
 </script>
-
-<?php
-require("template/footer.php");
-?>
