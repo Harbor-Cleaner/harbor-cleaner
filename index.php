@@ -54,9 +54,6 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
 $reponse->closeCursor();  // Termine le traitement de la requête
 ?>
 
-
-
-
 <?php
 require("template/footer.php");
 ?>
