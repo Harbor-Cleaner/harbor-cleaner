@@ -2,6 +2,9 @@
 require("template/header.php");
 date_default_timezone_set('Europe/Paris');
 ?>
+<?php
+require("template/footer.php");
+?>
 <title>Harbor Cleaner</title>
 <!-- Présentation du projet -->
 <a id="projet"></a>
@@ -52,8 +55,4 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
     ';
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
-?>
-
-<?php
-require("template/footer.php");
 ?>
