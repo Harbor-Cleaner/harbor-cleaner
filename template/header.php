@@ -63,4 +63,3 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
           </ul>
       </nav>
   </header>
-
