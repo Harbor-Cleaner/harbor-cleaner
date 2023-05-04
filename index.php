@@ -5,8 +5,11 @@ date_default_timezone_set('Europe/Paris');
 <title>Harbor Cleaner</title>
 <!-- Présentation du projet -->
 <a id="projet"></a>
-<!-- Présentation but du projet -->
 <h2>Le but du projet ?</h2>
+Bienvenue sur le site de notre projet ! Nous sommes quatre étudiants en terminale STI2D passionnés par l'environnement et plus particulièrement par la préservation de nos milieux aquatiques. Vivant à côté de la mer, nous avons décidé de nous mobiliser pour nettoyer nos ports en créant un robot autonome.
+<br> Notre robot a été conçu pour collecter les déchets qui polluent les ports et les bassins maritimes. Grâce à notre formation en Systèmes d'Information et Numérique (SIN) et en Innovation Technologique et Eco Conception (ITEC), nous avons travaillé ensemble pour développer un système automatisé efficace et respectueux de l'environnement.
+<br> Nous avons investi beaucoup de temps et d'énergie dans ce projet, car nous sommes convaincus que la préservation de l'environnement est une responsabilité de tous. Nous sommes fiers de ce que nous avons accompli et nous espérons que notre robot contribuera à maintenir nos milieux aquatiques propres.
+<br> Nous sommes impatients de partager notre expérience avec vous et de vous présenter notre robot de nettoyage de ports. N'hésitez pas à nous contacter si vous avez des questions ou des commentaires !
 <!-- Présentation de l'équipe ayant développé le projet -->
 <h2>Équipe de développement</h2>
 <div class="row">
@@ -34,7 +37,7 @@ date_default_timezone_set('Europe/Paris');
   
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="Clément" id="pfp">
+      <img src="Illustration/photos_team/Clément.png" alt="Clément" id="pfp">
       <div class="container">
         <h2>Clément Gloaguen</h2>
         <p class="title">Étudiant ITEC</p>
@@ -45,7 +48,7 @@ date_default_timezone_set('Europe/Paris');
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="Titouan" id="pfp">
+      <img src="Illustration/photos_team/Titouan.jpg" alt="Titouan" id="pfp">
       <div class="container">
         <h2>Titouan Buanic</h2>
         <p class="title">Étudiant ITEC</p>
