@@ -37,7 +37,7 @@ Bienvenue sur le site de notre projet ! Nous sommes quatre étudiants en termina
   
   <div class="column">
     <div class="card">
-      <img src="Illustration/photos_team/Clément.png" alt="Clément" id="pfp">
+      <img src="Illustration/photos_team/Clément.jpg" alt="Clément" id="pfp">
       <div class="container">
         <h2>Clément Gloaguen</h2>
         <p class="title">Étudiant ITEC</p>
