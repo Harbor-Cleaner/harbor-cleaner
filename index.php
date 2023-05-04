@@ -7,6 +7,12 @@ date_default_timezone_set('Europe/Paris');
 <a id="projet"></a>
 <!-- Présentation but du projet -->
 <h2>Le but du projet ?</h2>
+    <p>
+    Bienvenue sur le site de notre projet de robot de nettoyage de ports ! Nous sommes quatre étudiants en terminale STI2D, deux spécialisés en Systèmes d'Information et Numérique (SIN) et deux en Innovation Technologique et Eco Conception (ITEC). Nous avons travaillé ensemble pour réaliser ce projet qui nous tient à cœur : maintenir nos milieux aquatiques propres, particulièrement la mer à proximité de laquelle nous vivons.
+    <br> Notre robot de nettoyage de ports est notre projet de fin d'année et représente l'aboutissement de notre formation en STI2D. Nous avons conçu et construit ce robot à partir de zéro, en utilisant les compétences acquises en cours, mais aussi en menant nos propres recherches et en nous inspirant d'autres projets similaires.
+    <br> Notre robot est équipé de différentes technologies pour lui permettre d'effectuer son travail de nettoyage de manière autonome et efficace. Nous avons également veillé à concevoir un robot respectueux de l'environnement, en utilisant des matériaux recyclés et en veillant à limiter son empreinte carbone.
+    <br> Nous sommes fiers de présenter notre robot de nettoyage de ports, fruit de notre passion pour la technologie et notre engagement en faveur de l'environnement. Nous espérons que notre projet sera utile pour préserver la beauté de nos milieux aquatiques et sensibiliser les gens à l'importance de les maintenir propres.
+    </p>
 <!-- Présentation de l'équipe ayant développé le projet -->
 <h2>Équipe de développement</h2>
 <h3 id=équipe >équipe SIN : Jouin-Derrien Nicolas & Frances Alessio </h3>
