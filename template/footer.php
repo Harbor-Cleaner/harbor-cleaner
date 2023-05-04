@@ -6,7 +6,7 @@
 <h2 id="text-footer">
     Harbor Cleaner Project
 </h2>
-<img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaneur">
+<img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
 
 </footer>
 

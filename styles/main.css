@@ -98,6 +98,19 @@ h2{
 #table-item{
     font-size: 25px;
 }
+/*Header*/
+#titre-header{
+    text-align: center;
+    
+}
+
+#logo-header{
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    margin-left: 15px;
+    display: flex;
+}
 
 /*Footer*/
 footer{
