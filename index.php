@@ -9,8 +9,53 @@ date_default_timezone_set('Europe/Paris');
 <h2>Le but du projet ?</h2>
 <!-- Présentation de l'équipe ayant développé le projet -->
 <h2>Équipe de développement</h2>
-<h3 id=équipe >équipe SIN : Jouin-Derrien Nicolas & Frances Alessio </h3>
-<h3 id=équipe >équipe ITEC : Gloaguen Clement & Buanic Titouan</h3>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Aless" style="width:100%">
+      <div class="container">
+        <h2>Alessio Frances</h2>
+        <p class="title">Étudiant SIN</p>
+        <p>alessio.frances@likes.org</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Illustration/photos_team/Nicolas.jpg" alt="Nicolas" style="width:100%">
+      <div class="container">
+        <h2>Nicolas Jouin</h2>
+        <p class="title">Étudiant SIN</p>
+        <p>nicolas.jouin-derrien@likes.org</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Clément" style="width:100%">
+      <div class="container">
+        <h2>Clément Gloaguen</h2>
+        <p class="title">Étudiant ITEC</p>
+        <p>clement.gloaguen@likes.org</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Titouan" style="width:100%">
+      <div class="container">
+        <h2>Titouan Buanic</h2>
+        <p class="title">Étudiant ITEC</p>
+        <p>titouan.buanic@likes.org</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Chiffres significatif -->
 <h2>Harbor Cleaner en quelques chiffres</h2>
 <a id="chiffres"></a>

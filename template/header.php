@@ -51,7 +51,9 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
     });
 </script>
 <body>
-    <h1>Harbor Cleaner</h1>
+    <h1 id=titre-header >Harbor Cleaner</h1>
+<!--logo header -->
+<img id=logo-header src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
 <!-- NavBar -->
   <header>
       <nav class="navbar">
