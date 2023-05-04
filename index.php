@@ -81,7 +81,7 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
                 <th>Distance parcourue</th>
                 <th>Déchet récolté</th>
                 <th>Heure de fonctionnement</th>
-                <th>Etat</th>
+                <th>État</th>
             </tr>
             <tr id="table-valeurs">
                 <th>'.$donnees['distance'].' kms</th>
