@@ -62,7 +62,6 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
   </header>
 
 <title>Harbor Cleaner | Pilotage</title>
-<h2>Information concernant Harbor Cleaner</h2>
 <div class="split-screen">
     <!-- Contenue gauche -->
     <div class="split-screen__half">
@@ -74,8 +73,9 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
     scrolling="no" 
     marginheight="0" 
     marginwidth="0" 
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-4.942474365234375%2C47.622826666563675%2C-3.1297302246093754%2C48.43284538647477&amp;layer=mapnik">
+    src="https://embed.waze.com/iframe?zoom=16&lat=47.852471&lon=-4.454662&pin=1">
     </iframe>
+
     </div>
     <!-- Contenue droite -->
     <div class="split-screen__half">
@@ -98,7 +98,7 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
     });
 }
 else{
-    console.log("camera API is not supported by your browser")
+    console.log("La caméra n'est pas supporté par votre navigateur.")
 }
 
     // Good to go!
