@@ -138,7 +138,7 @@ html {
 /*Header*/
 #titre-header{
     text-align: center;
-    
+
 }
 
 #logo-header{
@@ -165,5 +165,5 @@ footer{
 }
 #text-footer{
     color: #242F3F;
-    margin-left: 80px;
+    text-align: center;
 }

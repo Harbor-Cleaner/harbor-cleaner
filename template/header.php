@@ -36,24 +36,13 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script>
-    jQuery(function(){
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 200 ) { 
-                    $('#scrollUp').css('right','10px');
-                } else { 
-                    $('#scrollUp').removeAttr( 'style' );
-                }
 
-            });
-        });
-    });
-</script>
 <body>
+  <div style='display:flex'>
     <h1 id=titre-header >Harbor Cleaner</h1>
 <!--logo header -->
 <img id=logo-header src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
+</div>
 <!-- NavBar -->
   <header>
       <nav class="navbar">
