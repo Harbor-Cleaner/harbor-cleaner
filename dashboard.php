@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta http-equiv="refresh" content="30"><!-- actualisation toutes les 30 secondes -->
     <meta charset="UTF-8">
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,20 +62,13 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
   </header>
 
 <title>Harbor Cleaner | Pilotage</title>
-<div class="split-screen">
-    <!-- Contenue gauche -->
-    <div class="split-screen__half">
-    <iframe
-    id="carte"
-    width="425" 
-    height="350" 
-    frameborder="0" 
-    scrolling="no" 
-    marginheight="0" 
-    marginwidth="0" 
-    src="https://embed.waze.com/iframe?zoom=16&lat=47.852471&lon=-4.454662&pin=1">
-    </iframe>
-
+<?php
+	// Définir les nouvelles coordonnées aléatoires
+	$lat = rand(40, 60);
+	$lon = rand(-10, 10);
+?>
+	<!-- Afficher le lien Waze avec les nouvelles coordonnées -->
+	<iframe src="https://embed.waze.com/iframe?zoom=16&lat=<?php echo $lat; ?>&lon=<?php echo $lon; ?>&pin=1"></iframe>
     </div>
     <!-- Contenue droite -->
     <div class="split-screen__half">
