@@ -12,7 +12,7 @@ date_default_timezone_set('Europe/Paris');
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Aless" style="width:100%">
+      <img src="Illustration/photos_team/Aless.webp" alt="Aless" id="pfp">
       <div class="container">
         <h2>Alessio Frances</h2>
         <p class="title">Étudiant SIN</p>
@@ -23,7 +23,7 @@ date_default_timezone_set('Europe/Paris');
 
   <div class="column">
     <div class="card">
-      <img src="Illustration/photos_team/Nicolas.jpg" alt="Nicolas" style="width:100%">
+      <img src="Illustration/photos_team/Nicolas.jpg" alt="Nicolas" id="pfp">
       <div class="container">
         <h2>Nicolas Jouin</h2>
         <p class="title">Étudiant SIN</p>
@@ -34,7 +34,7 @@ date_default_timezone_set('Europe/Paris');
   
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="Clément" style="width:100%">
+      <img src="/w3images/team3.jpg" alt="Clément" id="pfp">
       <div class="container">
         <h2>Clément Gloaguen</h2>
         <p class="title">Étudiant ITEC</p>
@@ -45,7 +45,7 @@ date_default_timezone_set('Europe/Paris');
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="Titouan" style="width:100%">
+      <img src="/w3images/team3.jpg" alt="Titouan" id="pfp">
       <div class="container">
         <h2>Titouan Buanic</h2>
         <p class="title">Étudiant ITEC</p>
