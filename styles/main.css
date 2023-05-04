@@ -141,22 +141,22 @@ html {
 }
 /*Header*/
 #titre-header{
-    text-align: center;
-
+    margin-left: 31%;
 }
 
 #logo-header{
     width: 130px;
     height: 130px;
     border-radius: 15px;
-    margin-left: 15px;
+    margin-left: 2.5%;
+    margin-top: 0.5%;
     display: flex;
 }
 
 /*Footer*/
 footer{
-    height: 200px;
-    margin-top: 270px;
+    height: 180px;
+    margin-top: 275px;
     background-color: #dbd0c0;
     border-radius:50px;
 }
@@ -164,10 +164,17 @@ footer{
     width: 130px;
     height: 130px;
     margin-left: 140px;
-    margin-top: -10px;
     border-radius: 15px;
 }
 #text-footer{
     color: #242F3F;
-    text-align: center;
+}
+#merde{
+    margin-left: 50vw;
+    transform: translateX(-50%);
+    display: flex;
+    width: fit-content;
+}
+#merde{
+    margin-right: 5vw;
 }

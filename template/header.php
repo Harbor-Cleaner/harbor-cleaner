@@ -39,9 +39,9 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
 
 <body>
   <div style='display:flex'>
+  <!--logo header -->
+  <img id=logo-header src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
     <h1 id=titre-header >Harbor Cleaner</h1>
-<!--logo header -->
-<img id=logo-header src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
 </div>
 <!-- NavBar -->
   <header>
