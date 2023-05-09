@@ -57,7 +57,6 @@ html {
 #pfp{
     width: 100%;
 }
-
 /* Division de la page en 2*/
 .split-screen {
     display: flex;
@@ -88,7 +87,7 @@ html {
     position: fixed;
     bottom : 10px;
     right: -340px;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 #to_top{
     width: 12.5%;
@@ -141,7 +140,7 @@ html {
 }
 /*Header*/
 #titre-header{
-    margin-left: 31%;
+    margin-left: 27%;
 }
 
 #logo-header{
@@ -155,7 +154,7 @@ html {
 
 /*Footer*/
 footer{
-    height: 180px;
+    height: 200px;
     margin-top: 275px;
     background-color: #dbd0c0;
     border-radius:50px;
@@ -168,13 +167,41 @@ footer{
 }
 #text-footer{
     color: #242F3F;
-}
-#merde{
-    margin-left: 50vw;
-    transform: translateX(-50%);
+    align-items: center;
     display: flex;
-    width: fit-content;
+    justify-content: center;
+
+    flex-direction: row-reverse;
 }
-#merde{
-    margin-right: 5vw;
+.rating {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.rating__star:hover,
+.rating__star:hover ~ .rating__star {
+    color: transparent;
+}
+
+.rating__star:hover:before,
+.rating__star:hover ~ .rating__star:before {
+    color: #eab308;
+    content: '★';
+    left: 0;
+    position: absolute;
+}
+
+.rating__star {
+    font-size: 1.5rem;
+
+    /* Reset styles for button */
+    background-color: transparent;
+    border: transparent;
+    margin: 0 2px;
+    padding: 0;
+
+    position: relative;
 }

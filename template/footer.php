@@ -2,13 +2,23 @@
 
 <div id="scrollUp">
     <a href="#top"><img src="Illustration/Elements/to_top.png" id="to_top"/></a>
+
 </div>
-    <div id='merde'>
-        <p id="text-footer" style='marginright=0px;'>Mention légales </p>
-        <p id="text-footer" >Plan du site </p>
-        <p id="text-footer" >Contact</p>
+       <p id=text-footer> 
+           <br> Mention légales </br>
+           <br> Plan du site </br>
+           <br> Contact </br>
+        </p>
+        <img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
+<div class="rating">
+    <button class="rating__star">☆</button>
+    <button class="rating__star">☆</button>
+    <button class="rating__star">☆</button>
+    <button class="rating__star">☆</button>
+    <button class="rating__star">★</button>
+    
 </div>
-<img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
+
 </footer>
 
 </html>    
