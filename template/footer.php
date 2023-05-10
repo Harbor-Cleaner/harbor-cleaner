@@ -22,7 +22,7 @@
 <div id="scrollUp">
     <a href="#top"><img src="Illustration/Elements/to_top.png" id="to_top"/></a>
 </div>
-</html>   
+</html>
 
 
 
