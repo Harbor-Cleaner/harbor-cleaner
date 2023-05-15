@@ -159,7 +159,7 @@ html {
 }
 
 /*Footer*/
-footer{
+#footer-div{
     height: 240px;
     margin-top: 275px;
     background-color: #dbd0c0;

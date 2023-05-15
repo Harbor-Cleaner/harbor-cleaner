@@ -1,10 +1,7 @@
-<footer>
-
-<div class="wrapper">
+<div id="footer-div">
+    <div class="wrapper">
+    <img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
     <div>
-       <img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
-    </div>
-   <div>
         <p id=text-footer> 
             Mention légales
         </p>
@@ -15,10 +12,7 @@
             Contact
         </p>
     </div>
-   
-</div>    
-
-</footer>
+</div>  
 <div id="scrollUp">
     <a href="#top"><img src="Illustration/Elements/to_top.png" id="to_top"/></a>
 </div>
