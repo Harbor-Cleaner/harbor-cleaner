@@ -129,8 +129,6 @@ html {
 
 /*Affichage des nombres*/
 .display-nombres{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
     font-size: 20px;
 }
 #table-nombres{
