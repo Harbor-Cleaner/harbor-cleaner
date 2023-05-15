@@ -10,12 +10,14 @@ date_default_timezone_set('Europe/Paris');
 <a id="projet"></a>
 <h2>Le but du projet ?</h2>
 <div class="split-screen">
+  <!--Contenue  présentation droite -->
   <div class="split-screen__half">
     <p id="text-team">
       <br> Notre robot a été conçu pour collecter les déchets qui polluent les ports et les bassins maritimes. Grâce à notre formation en Systèmes d'Information et Numérique (SIN) et en Innovation Technologique et Eco Conception (ITEC), nous avons travaillé ensemble pour développer un système automatisé efficace et respectueux de l'environnement.
       <br> Nous avons investi beaucoup de temps et d'énergie dans ce projet, car nous sommes convaincus que la préservation de l'environnement est une responsabilité de tous. Nous sommes fiers de ce que nous avons accompli et nous espérons que notre robot contribuera à maintenir nos milieux aquatiques propres.
     </p>
   </div>
+  <!-- Contenue présentation gauche -->
   <div class="split-screen__half">
     <iframe
     id="video-index"
@@ -91,7 +93,7 @@ catch(Exception $e)
 {
     die('Erreur : '.$e->getMessage());
 }
-// Affichage de données
+// Affichage de données sous forme de tableau (Affichage simplifié)
 $reponse = $bdd->query('SELECT * FROM `bateau` ORDER BY bateau_id DESC LIMIT 1'); //Requête BDD
 While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affiche
 {
