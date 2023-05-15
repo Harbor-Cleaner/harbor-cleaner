@@ -120,12 +120,6 @@ html {
 .navbar li a:hover{
     color: royalblue
 }
-.navbar input{
-    border: 2px solid black;
-    border-radius: 14px;
-    padding: 3px 17px;
-    width: 129px;
-}
 
 /*Affichage des nombres*/
 .display-nombres{
