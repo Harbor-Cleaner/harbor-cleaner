@@ -3,16 +3,17 @@ require("template/header.php");
 date_default_timezone_set('Europe/Paris');
 ?>
 <title>Harbor Cleaner</title>
+<p>
+  Bienvenue sur le site de notre projet ! Nous sommes quatre étudiants en terminale STI2D passionnés par l'environnement et plus particulièrement par la préservation de nos milieux aquatiques. Vivant à côté de la mer, nous avons décidé de nous mobiliser pour nettoyer nos ports en créant un robot autonome.
+</p>
 <!-- Présentation du projet -->
 <a id="projet"></a>
 <h2>Le but du projet ?</h2>
 <div class="split-screen">
   <div class="split-screen__half">
     <p id="text-team">
-      Bienvenue sur le site de notre projet ! Nous sommes quatre étudiants en terminale STI2D passionnés par l'environnement et plus particulièrement par la préservation de nos milieux aquatiques. Vivant à côté de la mer, nous avons décidé de nous mobiliser pour nettoyer nos ports en créant un robot autonome.
       <br> Notre robot a été conçu pour collecter les déchets qui polluent les ports et les bassins maritimes. Grâce à notre formation en Systèmes d'Information et Numérique (SIN) et en Innovation Technologique et Eco Conception (ITEC), nous avons travaillé ensemble pour développer un système automatisé efficace et respectueux de l'environnement.
       <br> Nous avons investi beaucoup de temps et d'énergie dans ce projet, car nous sommes convaincus que la préservation de l'environnement est une responsabilité de tous. Nous sommes fiers de ce que nous avons accompli et nous espérons que notre robot contribuera à maintenir nos milieux aquatiques propres.
-      <br> Nous sommes impatients de partager notre expérience avec vous et de vous présenter notre robot de nettoyage de ports. N'hésitez pas à nous contacter si vous avez des questions ou des commentaires !
     </p>
   </div>
   <div class="split-screen__half">
@@ -35,7 +36,7 @@ date_default_timezone_set('Europe/Paris');
     <div class="card">
       <img src="Illustration/photos_team/Aless.webp" alt="Aless" id="pfp">
       <div class="container">
-        <h2>Alessio Frances</h2>
+        <h3>Alessio Frances</h3>
         <p class="title">Étudiant SIN</p>
         <p>alessio.frances@likes.org</p>
       </div>
@@ -46,7 +47,7 @@ date_default_timezone_set('Europe/Paris');
     <div class="card">
       <img src="Illustration/photos_team/Nicolas.jpg" alt="Nicolas" id="pfp">
       <div class="container">
-        <h2>Nicolas Jouin</h2>
+        <h3>Nicolas Jouin</h3>
         <p class="title">Étudiant SIN</p>
         <p>nicolas.jouin-derrien@likes.org</p>
       </div>
@@ -57,7 +58,7 @@ date_default_timezone_set('Europe/Paris');
     <div class="card">
       <img src="Illustration/photos_team/Clément.jpg" alt="Clément" id="pfp">
       <div class="container">
-        <h2>Clément Gloaguen</h2>
+        <h3>Clément Gloaguen</h3>
         <p class="title">Étudiant ITEC</p>
         <p>clement.gloaguen@likes.org</p>
       </div>
@@ -68,7 +69,7 @@ date_default_timezone_set('Europe/Paris');
     <div class="card">
       <img src="Illustration/photos_team/Titouan.jpg" alt="Titouan" id="pfp">
       <div class="container">
-        <h2>Titouan Buanic</h2>
+        <h3>Titouan Buanic</h3>
         <p class="title">Étudiant ITEC</p>
         <p>titouan.buanic@likes.org</p>
       </div>
@@ -119,6 +120,9 @@ While ($donnees = $reponse->fetch()) // Rend les valeurs utilisables et les affi
     }
 $reponse->closeCursor();  // Termine le traitement de la requête
 ?>
+<p>
+Nous sommes impatients de partager notre expérience avec vous et de vous présenter notre robot de nettoyage de ports. N'hésitez pas à nous contacter si vous avez des questions ou des commentaires !
+</p>
 <?php
 require("template/footer.php");
 ?>
