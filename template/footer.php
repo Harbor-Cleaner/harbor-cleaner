@@ -3,13 +3,13 @@
     <img id="logo-footer" src="Illustration/Logo/Harbor.svg" alt="Logo Harbor Cleaner">
     <div>
         <p id=text-footer> 
-            Mention légales
+        <a href="template/404.html">Mention légales</a>
         </p>
         <p id=text-footer> 
-            Plan du site
+            <a href="template/404.html">Plan du site</a>
         </p>
         <p id=text-footer> 
-            Contact
+        <a href="template/404.html">Contact</a>
         </p>
     </div>
 </div>  
