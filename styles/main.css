@@ -179,4 +179,5 @@ html {
 /*Présentation l12 - Index.php*/
 #video-index{
     align-items: center;
+    margin: auto;
 }
