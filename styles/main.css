@@ -86,7 +86,10 @@ html {
 }
 #carte{
     border-radius: 5%;
+    width: 500px;
+    height: 500px;
 }
+
 /* Scroll up*/
 #scrollUp{
     position: fixed;
