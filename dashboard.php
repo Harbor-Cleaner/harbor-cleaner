@@ -62,14 +62,17 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
   </header>
 
 <title>Harbor Cleaner | Pilotage</title>
-<?php
-	// Définir les nouvelles coordonnées aléatoires
-	$lat = rand(40, 60);
-	$lon = rand(-10, 10);
-?>
-	<!-- Afficher le lien Waze avec les nouvelles coordonnées -->
-	<iframe src="https://embed.waze.com/iframe?zoom=16&lat=<?php echo $lat; ?>&lon=<?php echo $lon; ?>&pin=1"></iframe>
-    </div>
+    <div class="split-screen">
+        <!-- Contenue gauche -->
+        <div class="split-screen__half">
+            <?php
+	            // Définir les nouvelles coordonnées aléatoires
+	            $lat = rand(40, 60);
+	            $lon = rand(-10, 10);
+            ?>
+	        <!-- Afficher le lien Waze avec les nouvelles coordonnées -->
+	        <iframe src="https://embed.waze.com/iframe?zoom=16&lat=<?php echo $lat; ?>&lon=<?php echo $lon; ?>&pin=1"></iframe>
+        </div>
     <!-- Contenue droite -->
     <div class="split-screen__half">
         <video id="camera"></video>
