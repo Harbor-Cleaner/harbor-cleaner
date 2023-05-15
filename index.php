@@ -30,6 +30,7 @@ date_default_timezone_set('Europe/Paris');
   </div>
 </div>
 <!-- Présentation de l'équipe ayant développé le projet -->
+<a id="team"></a>
 <h2>Équipe de développement</h2>
 <div class="row">
   <div class="column">

@@ -49,6 +49,7 @@ echo '<link rel="shortcut icon" href="'.$favicon.'" type="image/x-icon">';
           <ul>
               <li><a href="index.php">Accueil</a></li>
               <li><a href="#projet">Notre projet</a></li>
+              <li><a href="#team">Notre équipe</a></li>
               <li><a href="#chiffres">Chiffres clés</a></li>
               <li><a href="dashboard.php">Dashboard</a></li>
           </ul>
