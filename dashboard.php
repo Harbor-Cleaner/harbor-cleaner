@@ -56,7 +56,7 @@
 <script>
     //  { exact: "environment" }
     if(navigator && navigator.mediaDevices){
-    const options = { audio: false, video: { facingMode: "user", width: 750, height: 500  } }
+    const options = { audio: false, video: { facingMode: "user", width: 1000 , height: 450  } }
     navigator.mediaDevices.getUserMedia(options)
     .then(function(stream) {
         var video = document.querySelector('video');
