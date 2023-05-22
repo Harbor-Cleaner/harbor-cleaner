@@ -10,22 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="shortcut icon" href="Illustration/Favicon/favicon_sombre.ico" type="image/x-icon">
-</head>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script>
-    jQuery(function(){
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 200 ) { 
-                    $('#scrollUp').css('right','10px');
-                } else { 
-                    $('#scrollUp').removeAttr( 'style' );
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Fonction pour recharger la partie de la page
+        function reloadCarte() {
+            $.ajax({
+                url: 'update_carte.php', // Le fichier PHP pour mettre à jour les coordonnées
+                success: function(data) {
+                    // Mettre à jour l'URL de l'élément iframe avec les nouvelles coordonnées
+                    $('#carte').attr('src', data);
                 }
-
             });
-        });
-    });
-</script>
+        }
+
+        // Recharger la partie de la page toutes les 5 secondes
+        setInterval(reloadCarte, 5000);
+    </script>   
+</head>
 <body>
 <!-- NavBar -->
   <header>
@@ -41,13 +43,10 @@
     <div class="split-screen">
         <!-- Contenue gauche -->
         <div class="split-screen__half">
-            <?php
-	            // Définir les nouvelles coordonnées aléatoires
-	            $lat = rand(40, 60);
-	            $lon = rand(-10, 10);
-            ?>
-	        <!-- Afficher le lien Waze avec les nouvelles coordonnées -->
-	        <iframe id="carte" src="https://embed.waze.com/iframe?zoom=16&lat=<?php echo $lat; ?>&lon=<?php echo $lon; ?>&pin=1"></iframe>
+            <div id="carte-container">
+            <!-- Afficher le lien Waze avec les coordonnées actuelles -->
+            <iframe id="carte" src=""></iframe>
+        </div>
         </div>
     <!-- Contenue droite -->
     <div class="split-screen__half">
