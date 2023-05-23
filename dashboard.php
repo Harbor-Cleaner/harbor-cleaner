@@ -24,7 +24,7 @@
         }
 
         // Recharger la partie de la page toutes les 5 secondes
-        setInterval(reloadCarte, 5000);
+        setInterval(reloadCarte, 10);
     </script>   
 </head>
 <body>
