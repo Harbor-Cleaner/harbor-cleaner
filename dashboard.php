@@ -73,3 +73,16 @@ else{
 
     // Good to go!
 </script>
+
+<!-- Dasboard bouton commande -->
+
+<!-- bouton activation moteur -->
+
+<h2>Moteur droit</h2>
+    <div class="flipswitch">
+        <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+        <label class="flipswitch-label" for="fs">
+            <div class="flipswitch-inner"></div>
+            <div class="flipswitch-switch"></div>
+        </label>
+    </div>
