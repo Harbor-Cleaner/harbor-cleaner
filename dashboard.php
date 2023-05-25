@@ -51,6 +51,7 @@
     <div class="split-screen__half">
         <video id="camera"></video>
     </div>
+    </div>
 <script>
     //  { exact: "environment" }
     if(navigator && navigator.mediaDevices){
