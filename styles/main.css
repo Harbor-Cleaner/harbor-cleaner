@@ -190,6 +190,7 @@ html {
 .flipswitch {
     position: relative;
     width: 82px;
+    margin-left: 70px;
   }
   .flipswitch input[type=checkbox] {
     display: none;
@@ -249,7 +250,11 @@ html {
   .flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
     right: 0;
   }
-  
+
 #moteur-droit{
-  align-items: center;
+  margin-left: -88%;
+}
+
+#moteur-gauche{
+  margin-left: -86%;
 }

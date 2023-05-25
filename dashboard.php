@@ -79,7 +79,7 @@ else{
 
 <!-- bouton activation moteur -->
 
-<h2>Moteur droit</h2>
+<h2 id=moteur-droit>Moteur droit</h2>
     <div class="flipswitch">
         <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
         <label class="flipswitch-label" for="fs">
@@ -87,3 +87,13 @@ else{
             <div class="flipswitch-switch"></div>
         </label>
     </div>
+
+    <h2 id=moteur-gauche>Moteur gauche</h2>
+    <div class="flipswitch">
+        <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+        <label class="flipswitch-label" for="fs">
+            <div class="flipswitch-inner"></div>
+            <div class="flipswitch-switch"></div>
+        </label>
+    </div>
+
